@@ -1,0 +1,2 @@
+# Add the exact ads.txt record supplied by your own Google AdSense account here.
+# Do not publish a guessed or another publisher's ID.
