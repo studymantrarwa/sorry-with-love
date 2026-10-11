@@ -5,7 +5,7 @@
 - Blog and information routes are listed in the XML sitemap and linked internally.
 - The build now prerenders indexable HTML for the homepage, blog listing, every article, and information pages. This gives crawlers meaningful content and route-specific title, description, canonical URL, Open Graph metadata, and structured data before the client app runs.
 - Article routes include `BlogPosting` JSON-LD; the homepage and information pages use appropriate `WebSite` / `WebPage` JSON-LD.
-- `robots.txt` allows public pages and points to the production sitemap.
+- `robots.txt` allows public pages, disallows `/api/`, and points to the production sitemap. AI-discovery resources are available at `/llms.txt`, `/ai-catalog.json`, `/ard.json`, and their `.well-known` copies.
 - Canonical and sitemap origin is set to `https://sorry-withlove.vercel.app`.
 
 ## Deploy
@@ -18,7 +18,7 @@
 ## Owner actions
 - Add a real, monitored contact email to the Contact page and update the privacy wording to match the actual setup.
 - Verify the Google Search Console HTML file belongs to the correct property.
-- Add the exact `ads.txt` line provided by your own AdSense account if/when you receive it. Do not guess a publisher ID.
+- `public/ads.txt` contains the record supplied by the site owner; confirm the publisher ID matches the current AdSense account before deployment. Do not guess a publisher ID.
 - Review all articles for factual accuracy, originality, usefulness, and your own practical perspective before publishing.
 - Confirm that the third-party `/sorry-my-girl` site allows iframe embedding.
 
