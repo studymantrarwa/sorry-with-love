@@ -4,13 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#fff5fa" />
+    <meta name="color-scheme" content="light" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="description" content="Create a personalised sorry card, explore animated apology stories, and read practical guides for sincere sorry messages and rebuilding trust." />
+    <meta name="keywords" content="sorry card, apology card, romantic sorry message, love apology, sorry message for girlfriend, personalised apology, online sorry card" />
+    <meta name="author" content="Sorry with Love" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/logo.svg" />
-    <meta name="description" content="Sorry with Love — create a romantic, personalized apology story with hearts, sweet cards, and your names." />
-    <meta property="og:title" content="Sorry with Love — Say sorry with your whole heart" />
-    <meta property="og:description" content="Make a little love story for someone special. Choose a card, add your names, and share your heartfelt sorry." />
-    <meta name="color-scheme" content="light" />
-    <title>Sorry with Love — Make a Little Love Story</title>
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Sorry with Love | Romantic Apology Cards, Sorry Messages & Guides</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sorry with Love" />
+    <meta property="og:title" content="Sorry with Love | Romantic Apology Cards, Sorry Messages & Guides" />
+    <meta property="og:description" content="Make a little love story for someone special. Choose a romantic apology card, add names, and share your heartfelt sorry." />
+    <meta property="og:image" content="https://sorry-withlove.vercel.app/img1.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sorry with Love | Romantic Apology Cards" />
+    <meta name="twitter:description" content="Create a personalised apology story and share it with someone special." />
+    <script>
+      (function () {
+        var canonical = document.createElement('link');
+        canonical.rel = 'canonical';
+        canonical.href = window.location.origin + window.location.pathname;
+        document.head.appendChild(canonical);
+        var ogUrl = document.createElement('meta');
+        ogUrl.setAttribute('property', 'og:url');
+        ogUrl.content = canonical.href;
+        document.head.appendChild(ogUrl);
+      })();
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Sorry with Love",
+        "applicationCategory": "LifestyleApplication",
+        "operatingSystem": "Any",
+        "description": "Create and share personalised romantic apology cards and love stories.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    </script>
   </head>
-  <body><div id="root"></div><script type="module" src="/src/main.jsx"></script></body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
