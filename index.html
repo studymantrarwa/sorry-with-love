@@ -22,27 +22,36 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Sorry with Love | Romantic Apology Cards" />
     <meta name="twitter:description" content="Create a personalised apology story and share it with someone special." />
-    <script>
-      (function () {
-        var canonical = document.createElement('link');
-        canonical.rel = 'canonical';
-        canonical.href = window.location.origin + window.location.pathname;
-        document.head.appendChild(canonical);
-        var ogUrl = document.createElement('meta');
-        ogUrl.setAttribute('property', 'og:url');
-        ogUrl.content = canonical.href;
-        document.head.appendChild(ogUrl);
-      })();
-    </script>
+    <link rel="canonical" href="https://sorry-withlove.vercel.app/" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Sorry with Love",
-        "applicationCategory": "LifestyleApplication",
-        "operatingSystem": "Any",
-        "description": "Create and share personalised romantic apology cards and love stories.",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://sorry-withlove.vercel.app/#website",
+            "name": "Sorry with Love",
+            "alternateName": "Sorry With Love",
+            "url": "https://sorry-withlove.vercel.app/",
+            "description": "Create personalised apology cards and read practical guides for sincere apologies."
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://sorry-withlove.vercel.app/#organization",
+            "name": "Sorry with Love",
+            "url": "https://sorry-withlove.vercel.app/",
+            "logo": { "@type": "ImageObject", "url": "https://sorry-withlove.vercel.app/logo.svg" }
+          },
+          {
+            "@type": "WebApplication",
+            "name": "Sorry with Love",
+            "url": "https://sorry-withlove.vercel.app/",
+            "applicationCategory": "LifestyleApplication",
+            "operatingSystem": "Any",
+            "description": "Create and share personalised romantic apology cards and love stories.",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+          }
+        ]
       }
     </script>
   </head>

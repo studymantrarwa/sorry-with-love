@@ -3,7 +3,7 @@
 ## Included
 - The existing apology-card flow and `/sorry-my-girl` card are preserved.
 - Blog and information routes are listed in the XML sitemap and linked internally.
-- The build now prerenders indexable HTML for the homepage, blog listing, every article, and information pages. This gives crawlers meaningful content and route-specific title, description, canonical URL, Open Graph metadata, and structured data before the client app runs.
+- The build now prerenders indexable HTML for the homepage, blog listing, every article, topic landing pages, and information pages. Blog content is shared between the app and prerenderer to prevent content drift. This gives crawlers meaningful content and route-specific title, description, canonical URL, Open Graph metadata, and structured data before the client app runs.
 - Article routes include `BlogPosting` JSON-LD; the homepage and information pages use appropriate `WebSite` / `WebPage` JSON-LD.
 - `robots.txt` allows public pages, disallows `/api/`, and points to the production sitemap. AI-discovery resources are available at `/llms.txt`, `/ai-catalog.json`, `/ard.json`, and their `.well-known` copies.
 - Canonical and sitemap origin is set to `https://sorry-withlove.vercel.app`.
@@ -24,6 +24,10 @@
 
 ## Ranking expectations
 No technical change can guarantee first position for every “sorry” keyword or instant indexing. Broad terms are highly competitive. Focus on a specific set of user intents, useful original content, clear internal links, a fast mobile experience, and earning genuine mentions/links. Avoid mass-producing near-identical keyword pages: Google's spam policies warn against scaled content and doorway pages created mainly to manipulate rankings.
+
+## Routing and crawl checks
+- Public article and topic pages are generated as static HTML; only `/account`, `/account/dashboard`, and `/admin/analytics` use the SPA fallback. Unknown paths are no longer deliberately rewritten to the homepage, reducing soft-404 risk.
+- The XML sitemap uses the shared article/topic sources so the list stays in sync with prerendered routes.
 
 ## Build verification
 The source release includes the prerender script, but this environment could not complete a dependency install, so a production build has not been verified here. Confirm that `npm run build` succeeds in Vercel after upload.

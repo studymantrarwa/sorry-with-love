@@ -28,7 +28,15 @@
       "destination": "/api/ard"
     },
     {
-      "source": "/(.*)",
+      "source": "/account",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/account/dashboard",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/admin/analytics",
       "destination": "/index.html"
     }
   ]
