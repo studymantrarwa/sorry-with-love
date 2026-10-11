@@ -12,6 +12,22 @@
       "destination": "/api/sitemap"
     },
     {
+      "source": "/ai-catalog.json",
+      "destination": "/api/ai-catalog"
+    },
+    {
+      "source": "/.well-known/ai-catalog.json",
+      "destination": "/api/ai-catalog"
+    },
+    {
+      "source": "/ard.json",
+      "destination": "/api/ard"
+    },
+    {
+      "source": "/.well-known/ard.json",
+      "destination": "/api/ard"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
