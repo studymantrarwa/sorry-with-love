@@ -33,8 +33,8 @@ No technical change can guarantee first position for every “sorry” keyword o
 The source release includes the prerender script, but this environment could not complete a dependency install, so a production build has not been verified here. Confirm that `npm run build` succeeds in Vercel after upload.
 
 ## Keyword coverage release
-- Added 16 original, topic-specific landing pages for boyfriend/girlfriend sorry websites, partner messages, messages for him/her, heart-touching and short messages, romantic apologies, post-fight apologies, hurtful actions, ignoring a partner, broken trust, Hindi/Hinglish apology guidance, online sorry cards, misunderstandings, and message templates.
-- The `/blog` page now links to these guides, and the prerender step includes their text, canonical metadata, structured data, and internal links in the static HTML.
-- `docs/seo/500-keyword-map.csv` contains 500 unique keyword candidates mapped to relevant existing or new URLs. Search volumes are deliberately marked unverified: validate them using Search Console, Google Keyword Planner, or another reputable keyword tool before prioritising them.
+- Removed near-duplicate keyword-targeted landing pages and the bulk keyword spreadsheet. Kept only the two distinct card-creation pages for boyfriend/girlfriend intent; useful advice remains in the blog.
+- The blog focuses on distinct, useful apology guides; two focused card-creation pages remain for boyfriend/girlfriend card intent.
+- `docs/seo/500-keyword-map.csv` contains bulk keyword list removed mapped to relevant existing or new URLs. Search volumes are deliberately marked unverified: validate them using Search Console, Google Keyword Planner, or another reputable keyword tool before prioritising them.
 - Do not create one page for every keyword. Closely related phrases should be served by one genuinely useful page; expand only when search data and distinct user intent justify a new page.
 - Existing card flow and the homepage section order are intended to remain unchanged; the additional topics are linked through the existing blog/guides area.

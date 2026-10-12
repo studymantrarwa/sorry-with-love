@@ -3,7 +3,7 @@
 ## इस रिलीज़ में किए गए बदलाव
 
 - Blog articles को `src/data/blogArticles.js` में एक ही source से चलाया गया है; React app और prerenderer अब वही content इस्तेमाल करते हैं।
-- Build के दौरान homepage, blog listing, 9 blog articles, 16 topic guides और information pages का static HTML बनता है। कुल अपेक्षित routes: 33.
+- Build के दौरान homepage, blog listing, 9 blog articles, 2 focused card-creation landing pages और information pages का static HTML बनता है। कुल अपेक्षित routes: 33.
 - हर prerendered public route में route-specific title, description, canonical, Open Graph metadata और JSON-LD structured data है।
 - Related links अब सीमित और विषय-संबंधित हैं; हर पेज पर सभी URLs की लंबी सूची नहीं लगाई जाती।
 - XML sitemap अब shared article/topic data से बनता है ताकि नए/हटाए गए routes की सूची अलग न रह जाए।
@@ -21,7 +21,7 @@
 
 ## Build verification
 
-इस पैकेज की static prerender output, 33 HTML routes, route metadata, JSON-LD JSON parsing, sitemap generation, key JavaScript module syntax और ZIP integrity की जाँच की जानी चाहिए। यदि dependency install नेटवर्क/DNS की वजह से विफल हो, तो Vite production build को पास घोषित न करें; Vercel build log में `npm run build` की सफलता की पुष्टि करें।
+इस पैकेज की static prerender output, 19 HTML routes, route metadata, JSON-LD JSON parsing, sitemap generation, key JavaScript module syntax और ZIP integrity की जाँच की जानी चाहिए। यदि dependency install नेटवर्क/DNS की वजह से विफल हो, तो Vite production build को पास घोषित न करें; Vercel build log में `npm run build` की सफलता की पुष्टि करें।
 
 ## Ranking के बारे में
 
