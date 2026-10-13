@@ -16,9 +16,9 @@ Mobile-friendly React + Vite apology-card website. The home card flow and four e
 - `public/` — public files served directly by Vite, including social-share image.
 - `api/` — Vercel sitemap and robots endpoints.
 - `scripts/` — static SEO prerendering during build.
-- `docs/seo/` — SEO content policy and keyword research notes.
+- `docs/seo/` — SEO editorial policy; no bulk keyword spreadsheet.
 - `supabase/` — database schema, RLS policies and admin analytics function.
-- `docs/` — Supabase, SEO and AdSense setup guides; `docs/seo/` contains the bulk keyword list.
+- `docs/` — Supabase, SEO and AdSense setup guides; `docs/seo/` contains the SEO editorial policy.
 
 ## Admin dashboard
 

@@ -1,0 +1,333 @@
+// Canonical catalogue for the Vercel API route; limited to current public routes.
+export const aiCatalog = {
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Sorry with Love",
+    "identifier": "https://sorry-withlove.vercel.app"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:home",
+      "displayName": "Home page",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/",
+      "description": "Create and share personalised animated apology cards and stories.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Home page.",
+        "Open Home page on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:blog",
+      "displayName": "Apology blog and guides",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/blog",
+      "description": "Practical guidance for sincere apologies and rebuilding trust.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Apology blog and guides.",
+        "Open Apology blog and guides on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:blog-how-to-apologize-sincerely",
+      "displayName": "How to Apologize Sincerely",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/blog/how-to-apologize-sincerely",
+      "description": "A practical guide to accountability, listening, repair, and respecting boundaries.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about How to Apologize Sincerely.",
+        "Open How to Apologize Sincerely on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:blog-sorry-message-for-girlfriend",
+      "displayName": "Sorry Message for Girlfriend",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/blog/sorry-message-for-girlfriend",
+      "description": "Guidance for writing a personal and respectful apology message.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Sorry Message for Girlfriend.",
+        "Open Sorry Message for Girlfriend on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:blog-sorry-message-for-boyfriend",
+      "displayName": "Sorry Message for Boyfriend",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/blog/sorry-message-for-boyfriend",
+      "description": "Guidance for writing a personal and respectful apology message.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Sorry Message for Boyfriend.",
+        "Open Sorry Message for Boyfriend on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:blog-sorry-message-for-wife",
+      "displayName": "Sorry Message for Wife",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/blog/sorry-message-for-wife",
+      "description": "Guidance for writing a thoughtful apology and rebuilding trust.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Sorry Message for Wife.",
+        "Open Sorry Message for Wife on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:blog-sorry-message-for-husband",
+      "displayName": "Sorry Message for Husband",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/blog/sorry-message-for-husband",
+      "description": "Guidance for writing a thoughtful apology and rebuilding trust.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Sorry Message for Husband.",
+        "Open Sorry Message for Husband on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:blog-sorry-message-for-best-friend",
+      "displayName": "Sorry Message for Best Friend",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/blog/sorry-message-for-best-friend",
+      "description": "Guidance for apologising to a friend honestly and respectfully.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Sorry Message for Best Friend.",
+        "Open Sorry Message for Best Friend on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:blog-what-not-to-say-in-an-apology",
+      "displayName": "What Not to Say in an Apology",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/blog/what-not-to-say-in-an-apology",
+      "description": "Common apology mistakes and healthier alternatives.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about What Not to Say in an Apology.",
+        "Open What Not to Say in an Apology on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:blog-rebuild-trust-after-an-argument",
+      "displayName": "How to Rebuild Trust After an Argument",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/blog/rebuild-trust-after-an-argument",
+      "description": "Practical steps for communication and consistent follow-through.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about How to Rebuild Trust After an Argument.",
+        "Open How to Rebuild Trust After an Argument on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:blog-apology-message-examples",
+      "displayName": "Apology Message Examples",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/blog/apology-message-examples",
+      "description": "Examples to personalise for real situations without pressuring the recipient.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Apology Message Examples.",
+        "Open Apology Message Examples on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:sorry-my-girl",
+      "displayName": "Sorry My Girl page",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/sorry-my-girl",
+      "description": "A page for the existing Sorry My Girl experience.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Sorry My Girl page.",
+        "Open Sorry My Girl page on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:about",
+      "displayName": "About Sorry with Love",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/about",
+      "description": "Information about the Sorry with Love website.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about About Sorry with Love.",
+        "Open About Sorry with Love on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:contact",
+      "displayName": "Contact Sorry with Love",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/contact",
+      "description": "Contact information and ways to reach the site owner.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Contact Sorry with Love.",
+        "Open Contact Sorry with Love on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:privacy",
+      "displayName": "Privacy Policy",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/privacy",
+      "description": "Information about privacy and site data practices.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Privacy Policy.",
+        "Open Privacy Policy on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:terms",
+      "displayName": "Terms and Conditions",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/terms",
+      "description": "Terms for using the website.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Terms and Conditions.",
+        "Open Terms and Conditions on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:disclaimer",
+      "displayName": "Disclaimer",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/disclaimer",
+      "description": "Website disclaimer and limitations.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Disclaimer.",
+        "Open Disclaimer on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:sorry-website-for-boyfriend",
+      "displayName": "Sorry Website for Boyfriend | Create a Personal Apology Card",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/sorry-website-for-boyfriend",
+      "description": "Create a personal sorry website for your boyfriend with a heartfelt message, romantic story cards, and a shareable link.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Sorry Website for Boyfriend | Create a Personal Apology Card.",
+        "Open Sorry Website for Boyfriend | Create a Personal Apology Card on Sorry with Love."
+      ],
+      "version": "1.0"
+    },
+    {
+      "identifier": "urn:air:sorry-withlove.vercel.app:web:sorry-website-for-girlfriend",
+      "displayName": "Sorry Website for Girlfriend | Heartfelt Apology Card",
+      "type": "text/html",
+      "url": "https://sorry-withlove.vercel.app/sorry-website-for-girlfriend",
+      "description": "Make a sorry website for your girlfriend with a personal apology, romantic card styles, and an easy-to-share link.",
+      "tags": [
+        "sorry-with-love",
+        "apology",
+        "relationship-guidance"
+      ],
+      "representativeQueries": [
+        "Find the Sorry with Love page about Sorry Website for Girlfriend | Heartfelt Apology Card.",
+        "Open Sorry Website for Girlfriend | Heartfelt Apology Card on Sorry with Love."
+      ],
+      "version": "1.0"
+    }
+  ]
+};
