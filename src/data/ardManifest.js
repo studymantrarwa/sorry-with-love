@@ -86,6 +86,11 @@ export const ardManifest = {
       "description": "Information about privacy and site data practices."
     },
     {
+      "url": "https://sorry-withlove.vercel.app/cookies",
+      "title": "Cookie Policy",
+      "description": "Information about optional Google Analytics and browser storage choices."
+    },
+    {
       "url": "https://sorry-withlove.vercel.app/terms",
       "title": "Terms and Conditions",
       "description": "Terms for using the website."
